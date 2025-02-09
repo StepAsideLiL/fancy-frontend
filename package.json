@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "fancy-frontend",
   "private": true,
   "scripts": {
     "build": "turbo build",
