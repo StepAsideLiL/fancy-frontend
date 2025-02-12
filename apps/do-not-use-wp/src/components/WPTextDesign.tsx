@@ -1,3 +1,4 @@
+import fonts from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 
 export default function WPTextDesign({
@@ -6,7 +7,13 @@ export default function WPTextDesign({
   className?: string;
 }) {
   return (
-    <span className={cn("font-semibold text-[#00749C]", className)}>
+    <span
+      className={cn(
+        "text-[#00749C]",
+        fonts.ppneuemontreal.medium.className,
+        className,
+      )}
+    >
       WordPress
     </span>
   );

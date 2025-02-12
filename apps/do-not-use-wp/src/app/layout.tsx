@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { geistMono, geistSans } from "@/lib/fonts";
+import fonts from "@/lib/fonts";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Why not WP",
@@ -16,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={cn("antialiased", fonts.ppneuemontreal.normal.className)}
       >
         <ThemeProvider
           attribute="class"
