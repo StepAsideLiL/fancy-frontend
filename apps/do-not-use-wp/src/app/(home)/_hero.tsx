@@ -1,5 +1,8 @@
+import FlashingText from "@/components/FlashingText";
 import WPTextDesign from "@/components/WPTextDesign";
+import fonts from "@/lib/fonts";
 import { Lucide } from "@/lib/icons";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 export default function Hero() {
@@ -15,8 +18,13 @@ export default function Hero() {
         />
       </div>
 
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[360px] leading-none text-background/20">
-        !WP
+      <div
+        className={cn(
+          "absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[360px] leading-none tracking-[-0.015em] text-background",
+          fonts.impact.className,
+        )}
+      >
+        <FlashingText>!WP</FlashingText>
       </div>
 
       <div className="h-full p-5">
