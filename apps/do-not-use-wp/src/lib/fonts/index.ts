@@ -30,7 +30,12 @@ const ppneuemontrealThin = localFont({
   src: "./ppneuemontreal-thin.otf",
 });
 
+const impact = localFont({
+  src: "./impact.ttf",
+});
+
 const fonts = {
+  impact,
   ppneuemontreal: {
     bold: ppneuemontrealBlod,
     medium: ppneuemontrealMedium,
