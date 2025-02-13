@@ -7,6 +7,12 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Why not WP",
   description: "Why not to use WordPress",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
