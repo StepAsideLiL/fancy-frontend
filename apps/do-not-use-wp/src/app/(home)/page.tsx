@@ -1,4 +1,4 @@
-import Hero from "./_Hhero";
+import Hero from "./_Hero";
 
 export default function Page() {
   return (
