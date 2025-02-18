@@ -14,7 +14,7 @@ const wordPressFacts = [
     subheading: "WordPress is a no-code tool to create websites.",
   },
   {
-    heading: "Plugins and Themes",
+    heading: "Themes and Plugins",
     subheading: "WordPress has a vast ecosystem of plugins and themes.",
   },
   {
