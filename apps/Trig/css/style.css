@@ -5,6 +5,10 @@
 }
 
 /* Header */
+header.header {
+  position: absolute;
+}
+
 nav.nav {
   padding: 12px 24px;
   display: flex;
@@ -12,15 +16,14 @@ nav.nav {
 }
 
 a.logo {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 button.menu-btn {
-  background-color: transparent;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
@@ -30,6 +33,19 @@ button.menu-btn {
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease-in-out;
+
+  position: fixed;
+  right: 20px;
+}
+
+.menu-btn-bg-transparent {
+  background-color: transparent;
+}
+
+.menu-btn-bg-black {
+  background-color: black;
 }
 
 button > .menu-btn-text {
@@ -44,4 +60,5 @@ button > .menu-btn-text:hover {
 
 button > .menu-btn-icon {
   font-size: 24px;
+  color: white;
 }
