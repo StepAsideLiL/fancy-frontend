@@ -76,6 +76,15 @@ nav.nav {
   right: 0;
 
   overflow: auto;
+  overflow-x: hidden;
+}
+
+.nav-open {
+  transform: translateX(0);
+}
+
+.nav-close {
+  transform: translateX(100%);
 }
 
 nav.nav > .nav-header {
@@ -83,7 +92,7 @@ nav.nav > .nav-header {
   align-items: center;
   justify-content: space-between;
 
-  padding: 12px 0;
+  padding: 12px 30px 12px 0;
 }
 
 nav.nav > .nav-header > h3 {
