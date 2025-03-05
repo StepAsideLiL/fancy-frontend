@@ -9,7 +9,7 @@ header.header {
   position: absolute;
 }
 
-nav.nav {
+.nav {
   padding: 12px 24px;
   display: flex;
   justify-content: space-between;
