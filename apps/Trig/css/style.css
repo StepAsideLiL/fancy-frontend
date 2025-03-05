@@ -48,17 +48,17 @@ button.menu-btn {
   background-color: black;
 }
 
-button > .menu-btn-text {
+button.menu-btn > .menu-btn-text {
   color: green;
 
   transition: color 0.3s ease-in-out;
 }
 
-button > .menu-btn-text:hover {
+button.menu-btn:hover > .menu-btn-text {
   color: white;
 }
 
-button > .menu-btn-icon {
+button.menu-btn > .menu-btn-icon {
   font-size: 24px;
   color: white;
 }
