@@ -11,8 +11,6 @@ header.header {
 
 .nav {
   padding: 12px 24px;
-  display: flex;
-  justify-content: space-between;
 }
 
 a.logo {
@@ -38,6 +36,7 @@ button.menu-btn {
 
   position: fixed;
   right: 20px;
+  top: 20px;
 }
 
 .menu-btn-bg-transparent {
