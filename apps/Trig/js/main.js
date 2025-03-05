@@ -1,5 +1,5 @@
 const navbar = document.querySelector(".menu-btn");
-const navbarClose = document.querySelector(".nav-close");
+const navbarCloseBtn = document.querySelector(".nav-close-btn");
 const nav = document.querySelector(".nav");
 
 window.addEventListener("scroll", function () {
@@ -17,7 +17,7 @@ navbar.addEventListener("click", function () {
   nav.classList.remove("nav-close");
 });
 
-navbarClose.addEventListener("click", function () {
+navbarCloseBtn.addEventListener("click", function () {
   nav.classList.add("nav-close");
   nav.classList.remove("nav-open");
 });
