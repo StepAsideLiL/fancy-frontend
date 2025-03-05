@@ -119,9 +119,10 @@ nav.nav > ul.nav-list > li > a {
 }
 
 nav.nav > p.sub-heading {
-  font-size: 14px;
+  font-size: 13px;
   color: gray;
   padding: 12px 0 24px 0;
+  line-height: 1.8;
 }
 
 nav.nav > .nav-social {
