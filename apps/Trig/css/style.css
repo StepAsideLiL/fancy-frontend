@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/* Header */
+/* ===== Header Section Start ===== */
 header.header {
   position: absolute;
 }
@@ -62,6 +62,7 @@ button.menu-btn > .menu-btn-icon {
   color: white;
 }
 
+/* Header: Navigation Start */
 nav.nav {
   padding: 24px 10px 0 24px;
   font-family: "Montserrat", sans-serif;
@@ -137,3 +138,5 @@ nav.nav > .nav-social > a {
 nav.nav > .nav-social > a:hover {
   color: white;
 }
+/* Header: Navigation End */
+/* ===== Header Section End ===== */
