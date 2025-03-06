@@ -12,6 +12,7 @@ a {
 /* ===== Header Section Start ===== */
 header.header {
   position: absolute;
+  z-index: 10;
 }
 
 .navbar {
@@ -173,3 +174,93 @@ nav.nav > .nav-social > a:hover {
 }
 /* Header: Navigation End */
 /* ===== Header Section End ===== */
+
+/* ===== Hero Section Start ===== */
+.hero {
+  height: 100vh;
+  color: white;
+  background-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+
+.hero-container {
+  height: 100vh;
+  color: white;
+  background-color: black;
+
+  font-family: "Montserrat", sans-serif;
+
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.hero-text {
+  max-width: 980px;
+  width: 980px;
+}
+
+.hero-text > h3 {
+  color: gray;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.hero-text > h1 {
+  font-size: 48px;
+  line-height: 1.4;
+  padding-bottom: 48px;
+}
+
+.hero-callToAction {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-callToAction > a {
+  display: inline-block;
+  font-weight: 600;
+  min-width: 180px;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 24px;
+  text-align: center;
+  transition:
+    color ease-in-out 0.3s,
+    background-color ease-in-out 0.3s;
+}
+
+.hero-callToAction > a:hover {
+  color: black;
+  background-color: white;
+}
+
+.hero-social {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero-social > a {
+  padding: 8px;
+  border: 2px solid white;
+  width: fit-content;
+  border-radius: 100%;
+}
+
+.hero-social .icon {
+  color: white;
+  font-size: 16px;
+}
