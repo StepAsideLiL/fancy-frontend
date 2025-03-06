@@ -12,11 +12,13 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// Open nav bar
 navbarBtn.addEventListener("click", function () {
   nav.classList.add("nav-open");
   nav.classList.remove("nav-close");
 });
 
+// Close nav bar
 navbarCloseBtn.addEventListener("click", function () {
   nav.classList.add("nav-close");
   nav.classList.remove("nav-open");
