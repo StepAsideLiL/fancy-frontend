@@ -16,10 +16,20 @@ window.addEventListener("scroll", function () {
 navbarBtn.addEventListener("click", function () {
   nav.classList.add("nav-open");
   nav.classList.remove("nav-close");
+
+  [...nav.children].map((element) => {
+    element.classList.remove("nav-child-close");
+    element.classList.add("nav-child-open");
+  });
 });
 
 // Close nav bar
 navbarCloseBtn.addEventListener("click", function () {
   nav.classList.add("nav-close");
   nav.classList.remove("nav-open");
+
+  [...nav.children].map((element) => {
+    element.classList.add("nav-child-close");
+    element.classList.remove("nav-child-open");
+  });
 });

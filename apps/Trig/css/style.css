@@ -81,6 +81,22 @@ nav.nav {
   transition: transform 0.3s ease-in-out;
 }
 
+.nav-child {
+  transition:
+    opacity 0.6s ease 0.3s,
+    transform 0.6s ease 0.3s;
+}
+
+.nav-child-close {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.nav-child-open {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
 .nav-open {
   transform: translateX(0);
 }
