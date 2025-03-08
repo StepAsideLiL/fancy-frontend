@@ -184,6 +184,7 @@ nav.nav > .nav-social > a:hover {
 /* ===== Hero Section Start ===== */
 .hero-container {
   height: 100vh;
+  min-height: 800px;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
 
