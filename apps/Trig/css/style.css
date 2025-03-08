@@ -209,6 +209,7 @@ nav.nav > .nav-social > a:hover {
 .hero-text {
   max-width: 980px;
   width: 980px;
+  padding: 0 0 0 20px;
 }
 
 .hero-text > h3 {
@@ -227,6 +228,7 @@ nav.nav > .nav-social > a:hover {
 .hero-callToAction {
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 24px;
 }
 
@@ -270,4 +272,29 @@ nav.nav > .nav-social > a:hover {
   color: white;
   font-size: 16px;
 }
+
+/* Hero: Media Queries Start */
+@media (max-width: 768px) {
+  .hero-text {
+    padding: 0 20px 0 20px;
+  }
+
+  .hero-text > h3 {
+    text-align: center;
+  }
+
+  .hero-text > h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .hero-callToAction {
+    justify-content: center;
+  }
+
+  .hero-social {
+    display: none;
+  }
+}
+/* Hero: Media Queries End */
 /* ===== Hero Section End ===== */
