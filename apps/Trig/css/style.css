@@ -9,6 +9,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
 /* ===== Header Section Start ===== */
 header.header {
   position: absolute;
@@ -248,6 +254,35 @@ nav.nav > .nav-social > a:hover {
 .hero-callToAction > a:hover {
   color: black;
   background-color: white;
+}
+
+.scroll-down {
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  padding-right: 10px;
+  border-right: 3px solid green;
+}
+
+.scroll-down > .scroll-down-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -10px;
+}
+
+.scroll-down > .scroll-down-btn > .scroll-down-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.scroll-down > .scroll-down-btn > .icon {
+  color: green;
+  font-size: 20px;
 }
 
 .hero-social {
