@@ -1,3 +1,12 @@
+:root {
+  --green: #39b54a;
+  --blackish: #010507;
+  --gray: #757575;
+  --white: #ffffff;
+  --black: #000000;
+  --tpwhite: #ffffff80;
+}
+
 *,
 *::before,
 *::after,
@@ -68,7 +77,7 @@ button.menu-btn {
 }
 
 button.menu-btn > .menu-btn-text {
-  color: green;
+  color: var(--green);
 
   transition: color 0.3s ease-in-out;
 }
@@ -137,7 +146,7 @@ nav.nav > .nav-header > h3 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: green;
+  color: var(--green);
 }
 
 nav.nav > .nav-header > button {
@@ -271,7 +280,7 @@ nav.nav > .nav-social > a:hover {
   bottom: 0;
   right: 100px;
   padding-right: 10px;
-  border-right: 3px solid green;
+  border-right: 3px solid var(--green);
 }
 
 .scroll-down > .scroll-down-btn {
@@ -290,7 +299,7 @@ nav.nav > .nav-social > a:hover {
 }
 
 .scroll-down > .scroll-down-btn > .icon {
-  color: green;
+  color: var(--green);
   font-size: 20px;
 }
 
@@ -348,7 +357,7 @@ nav.nav > .nav-social > a:hover {
   height: 100vh;
   min-height: 800px;
 
-  background-color: green;
+  background-color: var(--green);
 
   display: flex;
   justify-content: center;
