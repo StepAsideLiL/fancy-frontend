@@ -396,7 +396,7 @@ nav.nav > .nav-social > a:hover {
 }
 
 .about .content-container {
-  width: 860px;
+  max-width: 860px;
   padding: 24px 0 44px 0;
 }
 
@@ -411,6 +411,9 @@ nav.nav > .nav-social > a:hover {
   width: 960px;
 
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
   justify-content: space-between;
 }
 
@@ -419,6 +422,7 @@ nav.nav > .nav-social > a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 .about .accomplishments-container > .accomplishments > h2 {
@@ -428,11 +432,49 @@ nav.nav > .nav-social > a:hover {
 }
 
 .about .accomplishments-container > .accomplishments > h1 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .about .accomplishments-container > .saparator {
   width: 1px;
+  height: 100px;
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* About: Media Queries Start */
+@media (max-width: 768px) {
+  .about {
+    height: 100vh;
+    min-height: 1200px;
+  }
+
+  .about .about-sub-heading {
+    font-size: 15px;
+  }
+
+  .about .about-heading {
+    font-size: 52px;
+  }
+
+  .about .content-container {
+    max-width: 420px;
+    padding: 24px 0 44px 0;
+  }
+
+  .about .content {
+    font-size: 20px;
+  }
+
+  .about .accomplishments-container {
+    width: 960px;
+
+    flex-direction: column;
+  }
+
+  .about .accomplishments-container > .saparator {
+    width: 200px;
+    height: 1px;
+  }
+}
+/* About: Media Queries End */
 /* ===== About Section End ===== */
