@@ -19,6 +19,7 @@ h1 {
 
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -482,7 +483,7 @@ nav.nav > .nav-social > a:hover {
 /* ===== Services Section Start ===== */
 .services {
   min-height: 100vh;
-  height: 900px;
+  height: 800px;
 
   display: flex;
   justify-content: center;
@@ -555,4 +556,43 @@ nav.nav > .nav-social > a:hover {
   color: var(--gray);
   line-height: 1.5;
 }
+
+/* Services: Media Queries Start */
+@media (max-width: 768px) {
+  .services {
+    min-height: 100vh;
+    height: 1400px;
+  }
+
+  .services .heading-container {
+    width: 420px;
+  }
+
+  .services .sub-heading {
+    font-size: 14px;
+  }
+
+  .services .heading {
+    font-size: 28px;
+  }
+
+  .services .saparator {
+    width: 380px;
+  }
+
+  .services .services-wrapper {
+    width: 420px;
+    grid-template-columns: 1fr;
+    gap: 40px 52px;
+  }
+
+  .services .services-wrapper > div .icon {
+    font-size: 32px;
+  }
+
+  .services .services-wrapper > div div h2.service-name {
+    font-size: 24px;
+  }
+}
+/* Services: Media Queries End */
 /* ===== Services Section End ===== */
