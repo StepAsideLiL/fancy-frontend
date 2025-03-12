@@ -478,3 +478,81 @@ nav.nav > .nav-social > a:hover {
 }
 /* About: Media Queries End */
 /* ===== About Section End ===== */
+
+/* ===== Services Section Start ===== */
+.services {
+  min-height: 100vh;
+  height: 900px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .heading-container {
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services .sub-heading {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+.services .heading {
+  font-size: 48px;
+  padding: 24px 0;
+  line-height: 1.2;
+}
+
+.services .saparator {
+  width: 580px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.services .services-wrapper {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 52px;
+
+  padding: 58px 0;
+}
+
+.services .services-wrapper > div {
+  display: flex;
+
+  align-items: start;
+  gap: 24px;
+}
+
+.services .services-wrapper > div .icon {
+  font-size: 48px;
+  color: var(--green);
+}
+
+.services .services-wrapper > div div h2.service-name {
+  font-size: 32px;
+  font-weight: 600;
+
+  padding-bottom: 24px;
+}
+
+.services .services-wrapper > div div p.service-discription {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  color: var(--gray);
+  line-height: 1.5;
+}
+/* ===== Services Section End ===== */
