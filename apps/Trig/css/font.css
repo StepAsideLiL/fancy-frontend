@@ -28,12 +28,12 @@
 
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?q6vz9p");
+  src: url("../fonts/icon.eot?q6vz9p");
   src:
-    url("../fonts/icomoon.eot?q6vz9p#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?q6vz9p") format("truetype"),
-    url("../fonts/icomoon.woff?q6vz9p") format("woff"),
-    url("../fonts/icomoon.svg?q6vz9p#icomoon") format("svg");
+    url("../fonts/icon.eot?q6vz9p#iefix") format("embedded-opentype"),
+    url("../fonts/icon.ttf?q6vz9p") format("truetype"),
+    url("../fonts/icon.woff?q6vz9p") format("woff"),
+    url("../fonts/icon.svg?q6vz9p#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
