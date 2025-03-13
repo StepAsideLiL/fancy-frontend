@@ -646,6 +646,8 @@ nav.nav > .nav-social > a:hover {
 
 .works .projects {
   margin-top: -180px;
+
+  padding-bottom: 100px;
 }
 
 .works .projects-wrapper {
