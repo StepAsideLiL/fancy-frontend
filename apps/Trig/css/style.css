@@ -621,7 +621,7 @@ nav.nav > .nav-social > a:hover {
 .works .words-heading-container > h3 {
   color: var(--green);
 
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -718,4 +718,25 @@ nav.nav > .nav-social > a:hover {
 
   background-color: #000000b0;
 }
+/* Works: Media Queries Start */
+@media (max-width: 768px) {
+  .works .words-heading-container > h3 {
+    font-size: 14px;
+  }
+
+  .works .words-heading-container > h1 {
+    padding: 14px 20px;
+
+    font-size: 28px;
+  }
+
+  .works .saparator {
+    width: 420px;
+  }
+
+  .works .projects-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+/* Works: Media Queries End */
 /* ===== Works Section End ===== */
