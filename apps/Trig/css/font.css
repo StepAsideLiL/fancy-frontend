@@ -28,25 +28,12 @@
 
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icon.eot?q6vz9p");
+  src: url("../fonts/icomoon.eot?2vw81t");
   src:
-    url("../fonts/icon.eot?q6vz9p#iefix") format("embedded-opentype"),
-    url("../fonts/icon.ttf?q6vz9p") format("truetype"),
-    url("../fonts/icon.woff?q6vz9p") format("woff"),
-    url("../fonts/icon.svg?q6vz9p#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-@font-face {
-  font-family: "icomoon";
-  src: url("../fonts/logos.eot?sko33r");
-  src:
-    url("../fonts/logos.eot?sko33r#iefix") format("embedded-opentype"),
-    url("../fonts/logos.ttf?sko33r") format("truetype"),
-    url("../fonts/logos.woff?sko33r") format("woff"),
-    url("../fonts/logos.svg?sko33r#icomoon") format("svg");
+    url("../fonts/icomoon.eot?2vw81t#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?2vw81t") format("truetype"),
+    url("../fonts/icomoon.woff?2vw81t") format("woff"),
+    url("../fonts/icomoon.svg?2vw81t#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -68,6 +55,103 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-adobe:before {
+  content: "\e912";
+  color: #f00;
+}
+.icon-airbnb:before {
+  content: "\e913";
+  color: #ff5a5f;
+}
+.icon-amazon:before {
+  content: "\e914";
+  color: #f90;
+}
+.icon-behance:before {
+  content: "\e917";
+  color: #1769ff;
+}
+.icon-bitcoin:before {
+  content: "\e918";
+  color: #f7931a;
+}
+.icon-blackberry:before {
+  content: "\e915";
+}
+.icon-blender:before {
+  content: "\e919";
+  color: #f5792a;
+}
+.icon-cashapp:before {
+  content: "\e916";
+  color: #00c244;
+}
+.icon-dell:before {
+  content: "\e91c";
+  color: #007db8;
+}
+.icon-discord:before {
+  content: "\e91d";
+  color: #7289da;
+}
+.icon-ebay:before {
+  content: "\e91a";
+  color: #e53238;
+}
+.icon-epicgames:before {
+  content: "\e91b";
+}
+.icon-fiverr:before {
+  content: "\e91e";
+  color: #1dbf73;
+}
+.icon-godotengine:before {
+  content: "\e91f";
+  color: #478cbf;
+}
+.icon-ibm:before {
+  content: "\e920";
+  color: #054ada;
+}
+.icon-intel:before {
+  content: "\e921";
+  color: #0071c5;
+}
+.icon-notion:before {
+  content: "\e922";
+}
+.icon-playstation:before {
+  content: "\e923";
+  color: #003791;
+}
+.icon-spacex:before {
+  content: "\e92b";
+  color: #005288;
+}
+.icon-steam:before {
+  content: "\e92a";
+}
+.icon-tesla:before {
+  content: "\e929";
+  color: #c00;
+}
+.icon-unity:before {
+  content: "\e927";
+}
+.icon-unrealengine:before {
+  content: "\e928";
+}
+.icon-wikipedia:before {
+  content: "\e926";
+}
+.icon-windows:before {
+  content: "\e925";
+  color: #0078d6;
+}
+.icon-xbox:before {
+  content: "\e924";
+  color: #107c10;
+}
 .icon-chevron-down:before {
   content: "\e911";
 }
@@ -121,102 +205,4 @@
 }
 .icon-youtube:before {
   content: "\e907";
-}
-
-.icon-adobe:before {
-  content: "\e912";
-  color: #f00;
-}
-.icon-airbnb:before {
-  content: "\e913";
-  color: #ff5a5f;
-}
-.icon-amazon:before {
-  content: "\e900";
-  color: #f90;
-}
-.icon-behance:before {
-  content: "\e917";
-  color: #1769ff;
-}
-.icon-bitcoin:before {
-  content: "\e918";
-  color: #f7931a;
-}
-.icon-blackberry:before {
-  content: "\e901";
-}
-.icon-blender:before {
-  content: "\e919";
-  color: #f5792a;
-}
-.icon-cashapp:before {
-  content: "\e902";
-  color: #00c244;
-}
-.icon-dell:before {
-  content: "\e91c";
-  color: #007db8;
-}
-.icon-discord:before {
-  content: "\e91d";
-  color: #7289da;
-}
-.icon-ebay:before {
-  content: "\e903";
-  color: #e53238;
-}
-.icon-epicgames:before {
-  content: "\e904";
-}
-.icon-fiverr:before {
-  content: "\e905";
-  color: #1dbf73;
-}
-.icon-godotengine:before {
-  content: "\e906";
-  color: #478cbf;
-}
-.icon-ibm:before {
-  content: "\e920";
-  color: #054ada;
-}
-.icon-intel:before {
-  content: "\e907";
-  color: #0071c5;
-}
-.icon-notion:before {
-  content: "\e922";
-}
-.icon-playstation:before {
-  content: "\e908";
-  color: #003791;
-}
-.icon-spacex:before {
-  content: "\e909";
-  color: #005288;
-}
-.icon-steam:before {
-  content: "\e90a";
-}
-.icon-tesla:before {
-  content: "\e90b";
-  color: #c00;
-}
-.icon-unity:before {
-  content: "\e90c";
-}
-.icon-unrealengine:before {
-  content: "\e90d";
-}
-.icon-wikipedia:before {
-  content: "\e90e";
-}
-.icon-windows:before {
-  content: "\e90f";
-  color: #0078d6;
-}
-.icon-xbox:before {
-  content: "\e910";
-  color: #107c10;
 }
