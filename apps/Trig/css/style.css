@@ -742,3 +742,83 @@ nav.nav > .nav-social > a:hover {
 }
 /* Works: Media Queries End */
 /* ===== Works Section End ===== */
+
+/* ===== Clients Section Start ===== */
+#clients {
+  min-height: 100vh;
+
+  background-color: #dddddd;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clients .clients-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 0;
+}
+
+#clients .clients-heading-container {
+  width: 720px;
+
+  text-align: center;
+}
+
+#clients .clients-heading-container h3 {
+  color: var(--green);
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#clients .clients-heading-container h1 {
+  font-size: 42px;
+  line-height: 1.4;
+}
+
+#clients .clients-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  width: 1200px;
+
+  padding: 52px 0;
+}
+
+#clients .clients-logos .icon {
+  font-size: 80px;
+}
+
+/* Clients: Media Queries Start */
+@media (max-width: 768px) {
+  #clients .clients-heading-container {
+    width: 420px;
+  }
+
+  #clients .clients-heading-container h3 {
+    font-size: 14px;
+  }
+
+  #clients .clients-heading-container h1 {
+    font-size: 28px;
+  }
+
+  #clients .clients-logos {
+    width: 420px;
+  }
+
+  #clients .clients-logos .icon {
+    font-size: 40px;
+  }
+}
+/* Clients: Media Queries End */
+/* ===== Clients Section End ===== */
