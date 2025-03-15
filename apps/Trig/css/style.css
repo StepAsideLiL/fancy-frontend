@@ -798,6 +798,62 @@ nav.nav > .nav-social > a:hover {
   font-size: 80px;
 }
 
+#clients .saparator {
+  width: 720px;
+  height: 1px;
+
+  background-color: #bbbbbb;
+}
+
+#clients .testimony {
+  padding: 80px 0;
+
+  width: 1200px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+#clients .testimony-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  text-align: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  padding: 12px;
+}
+
+#clients .testimony-wrapper p {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+#clients img {
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+#clients .testimony-wrapper h1 {
+  font-size: 18px;
+}
+
+#clients .testimony-wrapper h2 {
+  font-size: 16px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
 /* Clients: Media Queries Start */
 @media (max-width: 768px) {
   #clients .clients-heading-container {
@@ -818,6 +874,10 @@ nav.nav > .nav-social > a:hover {
 
   #clients .clients-logos .icon {
     font-size: 40px;
+  }
+
+  #clients .saparator {
+    width: 420px;
   }
 }
 /* Clients: Media Queries End */
