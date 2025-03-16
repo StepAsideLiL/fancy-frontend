@@ -934,6 +934,7 @@ nav.nav > .nav-social > a:hover {
   width: 960px;
 
   display: flex;
+  flex-direction: row;
 
   background-color: #00000070;
 }
@@ -995,6 +996,7 @@ nav.nav > .nav-social > a:hover {
 
 #contact .contact-form-wrapper .contact-info {
   width: 40%;
+  background-color: black;
 
   padding: 60px 40px;
 
@@ -1033,4 +1035,38 @@ nav.nav > .nav-social > a:hover {
 #contact .contact-form-wrapper .contact-info .icon:hover {
   color: var(--green);
 }
+/* Contact: Media Queries Start */
+@media (max-width: 768px) {
+  #contact .contact-heading-container {
+    width: 420px;
+  }
+
+  #contact .contact-heading-container h3 {
+    font-size: 14px;
+  }
+
+  #contact .contact-heading-container h1 {
+    font-size: 28px;
+  }
+
+  #contact .contact-form-wrapper {
+    width: 420px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact .contact-form-wrapper .contact-form,
+  #contact .contact-form-wrapper .contact-info {
+    width: 100%;
+    background-color: #00000070;
+  }
+
+  #contact .contact-form-wrapper .contact-info {
+    text-align: center;
+
+    align-items: center;
+  }
+}
+/* Contact: Media Queries End */
 /* ===== Contact Section End ===== */
