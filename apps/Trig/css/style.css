@@ -1152,4 +1152,18 @@ nav.nav > .nav-social > a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+/* Footer: Media Queries Start */
+@media (max-width: 768px) {
+  #footer div.footer {
+    width: 420px;
+    flex-direction: column;
+  }
+
+  #footer .footer-left,
+  #footer .footer-right {
+    width: 100%;
+  }
+}
+/* Footer: Media Queries End */
 /* ===== Footer Section End ===== */
